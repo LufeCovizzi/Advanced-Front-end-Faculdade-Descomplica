@@ -1,155 +1,167 @@
-# Tech Store - Plataforma de Cursos Online - Projeto Prático do Curso Descomplica 
+# 🧠 **Tech Store** — Plataforma de Cursos Online  
+📚 *Projeto Prático do Curso Descomplica (Advanced Front-End)*  
 
-## Visão Geral
-Tech Store é um protótipo em fase inicial de plataforma de e-learning moderna desenvolvida com Angular 17+, focada em oferecer uma experiência de aprendizado interativa e intuitiva para cursos técnicos.
+---
 
-Orientações para alunos: Aguarde até o módulo 7 ou 8 para usar este projeto no começo do curso. use git init para iniciar o git em seu visual studio e faça clone deste repositório.
+## 🚀 Visão Geral
+**Tech Store** é um protótipo em fase inicial de uma plataforma moderna de **e-learning** desenvolvida com **Angular 17+**, projetada para oferecer uma experiência de aprendizado interativa e intuitiva para cursos técnicos.
 
-## Tecnologias Utilizadas
-- Angular 17+
-- Angular Material UI
-- NgRx para gerenciamento de estado
-- JSON Server para mock da API
-- RxJS para programação reativa
+---
 
-## Funcionalidades Principais
+## 🧩 Tecnologias Utilizadas
+- ⚙️ **Angular 17+**
+- 🎨 **Angular Material UI**
+- 🧠 **NgRx** (gerenciamento de estado global)
+- 🧰 **JSON Server** (mock da API)
+- 🔁 **RxJS** (programação reativa)
 
-### 1. Área do Aluno
-- **Dashboard Personalizado**
-  - Lista de cursos matriculados
-  - Indicadores de progresso
-  - Última aula assistida
-  - Total de aulas e aulas concluídas
+---
 
-- **Player de Curso**
-  - Menu lateral com currículo completo
-  - Player de vídeo responsivo
-  - Controles de navegação (anterior/próximo)
-  - Marcação de aulas concluídas
-  - Status de progresso por módulo
+## 💻 Funcionalidades Principais
 
-### 2. Catálogo de Cursos
-- Listagem em grid com cards informativos
-- Filtros por nível e categoria
+### 🧑‍🎓 1. Área do Aluno
+**Dashboard Personalizado**
+- Lista de cursos matriculados  
+- Indicadores de progresso  
+- Última aula assistida  
+- Total de aulas e aulas concluídas  
+
+**Player de Curso**
+- Menu lateral com currículo completo  
+- Player de vídeo responsivo  
+- Controles de navegação (anterior / próximo)  
+- Marcação de aulas concluídas  
+- Status de progresso por módulo  
+
+---
+
+### 🎓 2. Catálogo de Cursos
+- Listagem em **grid** com cards informativos  
+- Filtros por **nível** e **categoria**  
 - Informações detalhadas:
-  - Descrição do curso
-  - Instrutor
-  - Carga horária
-  - Nível de dificuldade
-  - Preço
+  - Descrição  
+  - Instrutor  
+  - Carga horária  
+  - Nível de dificuldade  
+  - Preço  
 
-### 3. Sistema de Autenticação
-- Login seguro
-- Registro de novos usuários
-- Proteção de rotas com Guards
-- Persistência de sessão
+---
 
-### 4. Carrinho de Compras
-- Adição/remoção de cursos
-- Atualização de quantidade
-- Cálculo automático de total
-- Checkout (em desenvolvimento)
+### 🔐 3. Sistema de Autenticação
+- Login seguro  
+- Registro de novos usuários  
+- Proteção de rotas via **Guards**  
+- Persistência de sessão com **LocalStorage**  
 
-## API Endpoints
+---
 
-### Cursos
-- `GET /api/courses` - Lista todos os cursos
-- `GET /api/courses/:id` - Detalhes de um curso
+### 🛒 4. Carrinho de Compras
+- Adição e remoção de cursos  
+- Atualização de quantidades  
+- Cálculo automático do total  
+- Checkout *(em desenvolvimento)*  
 
-### Autenticação
-- `POST /api/auth/register` - Registro de usuário
-- `POST /api/auth/login` - Login de usuário
+---
 
-### Área do Aluno
-- `GET /api/student/courses` - Cursos matriculados
-- `GET /api/student/courses/:id/content` - Conteúdo do curso
-- `POST /api/student/courses/:id/progress` - Atualiza progresso
-- `POST /api/student/courses/:id/complete` - Marca aula como concluída
+## 🔌 API Endpoints
 
-## Instalação e Execução
+### 📘 Cursos
+| Método | Endpoint | Descrição |
+|---------|-----------|------------|
+| GET | `/api/courses` | Lista todos os cursos |
+| GET | `/api/courses/:id` | Detalhes de um curso |
 
-### Pré-requisitos
-- Node.js (v18+)
-- npm (v9+)
-- Angular CLI (v17+)
+### 👤 Autenticação
+| Método | Endpoint | Descrição |
+|---------|-----------|------------|
+| POST | `/api/auth/register` | Registro de usuário |
+| POST | `/api/auth/login` | Login de usuário |
 
-### Configuração
-1. Clone o repositório
-2. Instale as dependências:
-```bash
-npm install
-```
+### 🎓 Área do Aluno
+| Método | Endpoint | Descrição |
+|---------|-----------|------------|
+| GET | `/api/student/courses` | Cursos matriculados |
+| GET | `/api/student/courses/:id/content` | Conteúdo do curso |
+| POST | `/api/student/courses/:id/progress` | Atualiza progresso |
+| POST | `/api/student/courses/:id/complete` | Marca aula como concluída |
 
-### Execução
-1. Inicie o servidor mock:
-```bash
-npm run server
-```
+---
 
-2. Em outro terminal, inicie o servidor Angular:
-```bash
-ng serve
-```
+## ⚙️ Instalação e Execução
 
-3. Acesse http://localhost:4200
+### 📋 Pré-requisitos
+- **Node.js** v18+
+- **npm** v9+
+- **Angular CLI** v17+
 
-### Credenciais de Teste
-- Email: alan@edugital.com.br
-- Senha: teste222
+## 🎨 Recursos do Angular Material Implementados
 
-## Recursos do Material UI Implementados
-- MatToolbar para navegação
-- MatSidenav para menu lateral
-- MatCard para cards de cursos
-- MatProgressBar para indicadores
-- MatExpansionPanel para currículo
-- MatSnackBar para notificações
+- **MatToolbar** → Navegação superior  
+- **MatSidenav** → Menu lateral  
+- **MatCard** → Cards de cursos  
+- **MatProgressBar** → Indicadores de progresso  
+- **MatExpansionPanel** → Currículo do curso  
+- **MatSnackBar** → Notificações  
 
-## Estado Global (NgRx)
-- Store configurada para:
-  - Carrinho de compras
-  - Autenticação
-  - Estado do curso atual
+---
 
-## Responsividade
-- Layout adaptativo para:
-  - Desktop (1200px+)
-  - Tablet (768px - 1199px)
-  - Mobile (< 768px)
-- Grid system flexível
-- Componentes responsivos
-- Media queries otimizadas
+## 🧱 Estado Global (NgRx)
 
-## Segurança
-- Guards para rotas protegidas
-- Interceptor para tokens
-- Sanitização de URLs
-- Validação de formulários
+Gerenciamento centralizado com Store para:
+- Carrinho de compras  
+- Autenticação  
+- Estado do curso atual  
 
-## Performance
-- Lazy loading de módulos
-- Componentes standalone
-- Otimização de imagens
-- Minificação de assets
+---
 
-## Próximas Implementações
-- [ ] Sistema de busca avançada
-- [ ] Filtros de cursos
-- [ ] Checkout integrado
-- [ ] Área do instrutor
-- [ ] Sistema de avaliações
-- [ ] Download de materiais
-- [ ] Certificados automáticos
+## 📱 Responsividade
 
-## Contribuição
-1. Fork o projeto
-2. Crie uma branch (`git checkout -b feature/nova-funcionalidade`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
-4. Push para a branch (`git push origin feature/nova-funcionalidade`)
-5. Abra um Pull Request
+- **Layout adaptativo** para:
+  - 💻 **Desktop** (>1200px)
+  - 📟 **Tablet** (768px–1199px)
+  - 📱 **Mobile** (<768px)
+- Grid system flexível  
+- Media queries otimizadas  
 
-## Suporte
-Para suporte, envie um email para suporte@techstore.com ou abra uma issue no repositório.
+---
 
-## Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+## 🔒 Segurança
+
+- Guards para rotas protegidas  
+- Interceptor JWT para autenticação  
+- Sanitização de URLs  
+- Validação de formulários  
+
+---
+
+## ⚡ Performance
+
+- Lazy Loading de módulos  
+- Componentes Standalone  
+- Otimização de imagens  
+- Minificação de assets  
+
+---
+
+## 🧭 Próximas Implementações
+
+- [ ] Sistema de busca avançada  
+- [ ] Filtros de cursos  
+- [ ] Checkout integrado  
+- [ ] Área do instrutor  
+- [ ] Sistema de avaliações  
+- [ ] Download de materiais  
+- [ ] Certificados automáticos  
+
+🤝 Contribuição
+
+## 🤝 Contribuição
+
+- **Faça um fork do projeto**  
+- **Crie uma branch para sua feature:**  
+   git checkout -b feature/nova-funcionalidade  
+- **Faça o commit das alterações:**  
+   git commit -m "Adiciona nova funcionalidade"  
+- **Envie a branch:**  
+   git push origin feature/nova-funcionalidade  
+- **Abra um Pull Request**
