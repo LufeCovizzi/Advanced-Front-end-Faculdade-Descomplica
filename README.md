@@ -50,25 +50,6 @@ Orientações para alunos: Aguarde até o módulo 7 ou 8 para usar este projeto 
 - Cálculo automático de total
 - Checkout (em desenvolvimento)
 
-## Estrutura do Projeto pode ter mudado um pouco após as gravações. Devo atualizar em breve.
-```
-tech-store/
-├── mock-server/
-│   ├── db.json         # Dados mock da API
-│   └── routes.json     # Configuração de rotas
-├── src/
-│   ├── app/
-│   │   ├── core/       # Serviços e funcionalidades core
-│   │   ├── shared/     # Componentes compartilhados
-│   │   └── features/   # Módulos de funcionalidades
-│   │       ├── auth/     # Autenticação
-│   │       ├── cart/     # Carrinho
-│   │       ├── courses/  # Catálogo de cursos
-│   │       └── student/  # Área do aluno
-│   ├── environments/   # Configurações de ambiente
-│   └── styles/        # Estilos globais
-```
-
 ## API Endpoints
 
 ### Cursos
