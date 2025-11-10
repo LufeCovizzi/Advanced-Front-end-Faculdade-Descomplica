@@ -1,0 +1,20 @@
+# ============================================
+# Linguist configuration for GitHub language stats
+# ============================================
+
+# Força reconhecimento das principais linguagens Angular
+*.ts linguist-language=TypeScript
+*.html linguist-language=HTML
+*.scss linguist-language=SCSS
+*.json linguist-language=JSON
+
+# Permite detecção (caso tenha sido desativada)
+*.ts linguist-detectable=true
+*.html linguist-detectable=true
+*.scss linguist-detectable=true
+*.json linguist-detectable=true
+
+# Ignora arquivos gerados ou de build
+node_modules/* linguist-vendored=true
+docs/* linguist-vendored=true
+dist/* linguist-vendored=true
