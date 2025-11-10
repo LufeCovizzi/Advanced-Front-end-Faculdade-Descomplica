@@ -153,8 +153,6 @@ Gerenciamento centralizado com Store para:
 - [ ] Download de materiais  
 - [ ] Certificados automáticos  
 
-🤝 Contribuição
-
 ## 🤝 Contribuição
 
 - **Faça um fork do projeto**  
