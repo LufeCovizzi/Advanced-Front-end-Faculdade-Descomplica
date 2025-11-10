@@ -1,11 +1,3 @@
-# Guia de Contribuição
-
-Obrigado por considerar contribuir com o Tech Store! Este documento fornece diretrizes e padrões para contribuir com o projeto.
-
-## Código de Conduta
-
-Este projeto segue um Código de Conduta. Ao participar, espera-se que você mantenha este código.
-
 ## Como Contribuir
 
 ### Reportando Bugs
@@ -124,7 +116,3 @@ feat: adiciona nova funcionalidade
 - Imagens otimizadas
 - Bundle size controlado
 - Sem memory leaks
-
-## Dúvidas?
-
-Abra uma issue ou contate a equipe de desenvolvimento. 
